@@ -58,7 +58,6 @@ main .timer-container h1 {
 }
 
 main .leftside-heading {
-  background-color: red;
   height: 3rem;
   display: flex;
   font-size: 1.7rem;
@@ -68,6 +67,7 @@ main .leftside-heading {
   top: 20%;
   left: 1rem;
 }
+
 main img {
   width: 100%;
   height: 100%;
@@ -78,9 +78,11 @@ main img {
   color: white;
   display: flex;
 }
+
 #count-down-content .common-margin {
   margin-left: 1.5rem;
 }
+
 #count-down-content .common-margin .text {
   text-align: center;
   font-size: 1.2rem;
@@ -104,22 +106,20 @@ main img {
   justify-content: center;
   align-items: center;
 }
+
 .circle-inner .content {
   display: flex;
   align-items: center;
   color: black;
-  font-size: 1.5rem;
-  width: 75px;
-  height: 75px;
-  border-radius: 50%;
+  font-size: 2.5rem;
+  width: 100px;
+  height: 100px;
   display: grid;
   place-items: center;
   font-weight: 700;
-  border-radius: 50%;
-  background: #e29112;
+  border-radius: 10%;
   box-shadow: 14px 14px 28px #a0670d, -14px -14px 28px #ffbb17;
   background: linear-gradient(145deg, #db8c10, #ffa713);
-  box-shadow: 24px 24px 78px #aa6d0d, -24px -24px 78px #ffcb17;
 }
 
 /* FORM DESIGN=========================================================== */
