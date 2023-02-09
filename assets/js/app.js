@@ -1,4 +1,3 @@
-// let expireDate = new Date("01/12/2023");
 let expireDate = new Date("Feb 11, 2023 00:00:00").getTime();
 
 function interval() {
