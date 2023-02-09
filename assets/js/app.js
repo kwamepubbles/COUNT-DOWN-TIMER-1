@@ -1,12 +1,12 @@
 // let expireDate = new Date("01/12/2023");
-var expireDate = new Date("Jan 5, 2024 15:37:25").getTime();
+var expireDate = new Date("Jan 20, 2023 15:37:25").getTime();
 
 function interval() {
   let current = new Date().getTime();
-  //   console.log(current);
+     console.log(current);
 
   let duration = expireDate - current;
-  //   console.log(current);
+     console.log(current);
 
   //   calculate days===========================
 
@@ -90,17 +90,17 @@ displayRegisterLink.forEach((link) => {
   });
 });
 
-// displayRegisterLink.addEventListener("click", (e) => {
-//   e.preventDefault;
-//   removeDisplayLogin();
-//   displayRegister();
-// });
+displayRegisterLink.addEventListener("click", (e) => {
+  e.preventDefault;
+  removeDisplayLogin();
+  displayRegister();
+});
 
 displayChangePasswordlink.addEventListener("click", (e) => {
   e.preventDefault();
   removeDisplayLogin();
   displayChangePassword();
-  //   displayRegister();
+  displayRegister();
 });
 
 // ===============================FUNCTIONS==============================================
